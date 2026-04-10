@@ -1,5 +1,8 @@
 # lymphedema_keratinocyte_par2
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](requirements.txt)
+
 This repository contains the cohort definitions, rerun wrappers, curated
 figures, summary tables, and notes for the keratinocyte `F2RL1 / PAR2`
 analysis in paired normal and lymphedematous human skin. The shared
@@ -16,6 +19,15 @@ needed). Public sequencing data accession: GEO accession pending.
 
 ## Install And Run
 
+Clone the repository and install its dependencies:
+
+```bash
+git clone https://github.com/SecondBook5/lymphedema_keratinocyte_par2.git
+cd lymphedema_keratinocyte_par2
+pip install -e ../paired-single-cell-pipeline
+pip install -r requirements.txt
+```
+
 ### Prerequisites
 
 - Python 3.10
@@ -29,22 +41,7 @@ Python environment manager.
 
 ### Typical Workflow
 
-1. Install the shared workflow package.
-
-   ```bash
-   pip install -e ../paired-single-cell-pipeline
-   ```
-
-   Shared core workflow repo:
-   [paired-single-cell-pipeline](https://github.com/SecondBook5/paired-single-cell-pipeline)
-
-2. Install this repository's Python dependencies.
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-3. Build the runtime manifest and project config for the cohort you want to
+1. Build the runtime manifest and project config for the cohort you want to
    rerun. The default public alias is `manuscript_cohort`.
 
    ```bash
@@ -54,7 +51,7 @@ Python environment manager.
      --validate
    ```
 
-4. Run the shared core workflow against that runtime configuration.
+2. Run the shared core workflow against that runtime configuration.
 
    ```bash
    ./scripts/run_core_rerun.sh \
@@ -62,7 +59,7 @@ Python environment manager.
      --matrix-root /path/to/h5_files
    ```
 
-5. Regenerate the tracked keratinocyte/PAR2 figures, tables, and notes.
+3. Regenerate the tracked keratinocyte/PAR2 figures, tables, and notes.
 
    ```bash
    ./scripts/regenerate_outputs.sh \
