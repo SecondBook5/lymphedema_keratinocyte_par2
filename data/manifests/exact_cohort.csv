@@ -1,0 +1,8 @@
+sample_id,sample_name,condition,batch,donor_id,replicate_group,matrix_filename
+Set1_LE1,LE1,LE,Set1,P1,LE1,Set1_LE1.h5
+Set1_LE1_v8,LE1_v8,LE,Set1,P1,LE1,Set1_LE1_v8.h5
+Set1_norm1_v8,norm1_v8,Normal,Set1,P1,norm1,Set1_norm1_v8.h5
+Set4_LE4_v8,LE4_v8,LE,Set4,P4,LE4,Set4_LE4_v8.h5
+Set4_norm4_v8,norm4_v8,Normal,Set4,P4,norm4,Set4_norm4_v8.h5
+Set6_LE6-v8,LE6-v8,LE,Set6,P6,LE6,Set6_LE6-v8.h5
+Set6_norm6_v8,norm6_v8,Normal,Set6,P6,norm6,Set6_norm6_v8.h5

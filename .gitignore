@@ -1,0 +1,11 @@
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+work/
+results/
+logs/
+reports/
+docs/generated/
+*.h5ad
+*.h5
+*.bak

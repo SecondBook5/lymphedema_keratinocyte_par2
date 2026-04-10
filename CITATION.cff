@@ -1,0 +1,10 @@
+﻿cff-version: 1.2.0
+message: "If you use this repository, please cite the associated keratinocyte/PAR2 manuscript and the paired_sc core package."
+title: "lymphedema_keratinocyte_par2"
+type: software
+authors:
+  - family-names: "Book"
+    given-names: "AJ"
+repository-code: "https://github.com/SecondBook5/lymphedema_keratinocyte_par2"
+license: "MIT"
+

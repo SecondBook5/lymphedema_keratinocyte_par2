@@ -1,0 +1,2 @@
+gene,cell_type,patient_ids,n_paired_donors,positive_rule,count_source,mean_pct_LE,mean_pct_Normal,mean_delta_pct_pp,paired_ttest_pct_p,paired_ttest_pct_arcsin_p,paired_wilcoxon_pct_p,sign_test_pct_p,paired_ttest_mean_expr_p,paired_ttest_log1p_cpm_p,pooled_fisher_odds_ratio,pooled_fisher_p
+F2RL1,Keratinocytes,"1,4,6",3,raw_counts_gt_zero,layers[counts],36.38554520907462,41.62434488715144,-5.23879967807682,0.07591229564913639,0.08384415967550103,0.25,0.25,0.6879307280969764,0.9178503437331946,0.8706854412217085,0.03771517487078094
