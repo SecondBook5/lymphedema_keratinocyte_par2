@@ -1,10 +1,58 @@
-﻿cff-version: 1.2.0
-message: "If you use this repository, please cite the associated keratinocyte/PAR2 manuscript and the paired_sc core package."
+cff-version: 1.2.0
+message: "If you use this repository, please cite the published keratinocyte/PAR2 paper and the paired_sc core package."
 title: "lymphedema_keratinocyte_par2"
 type: software
 authors:
   - family-names: "Book"
-    given-names: "AJ"
+    given-names: "Abraham J."
 repository-code: "https://github.com/SecondBook5/lymphedema_keratinocyte_par2"
 license: "MIT"
-
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Park"
+      given-names: "Hyeung Ju"
+    - family-names: "Pal"
+      given-names: "Sarit"
+    - family-names: "Chen"
+      given-names: "Xizhao"
+    - family-names: "Shin"
+      given-names: "Jinyeon"
+    - family-names: "García Nores"
+      given-names: "Gabriela D."
+    - family-names: "Baik"
+      given-names: "Jung Eun"
+    - family-names: "Stull-Lane"
+      given-names: "Annica"
+    - family-names: "Book"
+      given-names: "Abraham J."
+    - family-names: "Clement"
+      given-names: "Cristina C."
+    - family-names: "Encarnacion"
+      given-names: "Elizabeth M."
+    - family-names: "Klang"
+      given-names: "Mark G."
+    - family-names: "Riedel"
+      given-names: "Elyn"
+    - family-names: "Chaunzwa"
+      given-names: "Tafadzwa L."
+    - family-names: "Hespe"
+      given-names: "Geoffrey E."
+    - family-names: "Santambrogio"
+      given-names: "Laura"
+    - family-names: "Coriddi"
+      given-names: "Michelle"
+    - family-names: "Dayan"
+      given-names: "Joseph H."
+    - family-names: "Mehrara"
+      given-names: "Babak J."
+    - family-names: "Kataru"
+      given-names: "Raghu P."
+  title: "Critical role of keratinocytes and protease-activated receptor 2 in secondary lymphedema development"
+  journal: "Clinical and Translational Medicine"
+  year: 2026
+  volume: 16
+  issue: 6
+  pages: "e70682"
+  doi: "10.1002/ctm2.70682"
+  url: "https://onlinelibrary.wiley.com/doi/10.1002/ctm2.70682"
