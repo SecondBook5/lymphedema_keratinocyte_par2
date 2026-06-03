@@ -2,6 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](requirements.txt)
+[![DOI](https://img.shields.io/badge/DOI-10.1002%2Fctm2.70682-blue)](https://doi.org/10.1002/ctm2.70682)
 
 This repository contains the cohort definitions, rerun wrappers, curated
 figures, summary tables, and notes for the keratinocyte `F2RL1 / PAR2`
@@ -11,11 +12,20 @@ provides the reusable `paired_sc` workflow, while this repository defines the
 exact cohort, runtime configuration, and tracked deliverables for the
 keratinocyte question.
 
-It accompanies the single-cell analyses supporting *Critical Role of
-Keratinocytes and PAR2 in Secondary Lymphedema Development* (Hyeung Ju Park,
-Sarit Pal, Xizhao Chen, Jinyeon Shin, Gabriela D. Garcia Nores, Jung Eun Baik,
-Annica Stull-Lane, Abraham J. Book, et al.; update citation details as
-needed). Public sequencing data accession: GEO accession pending.
+This repository accompanies the published Clinical and Translational Medicine
+article:
+
+> Park HJ, Pal S, Chen X, Shin J, García Nores GD, Baik JE, Stull-Lane A,
+> Book AJ, Clement CC, Encarnacion EM, Klang MG, Riedel E, Chaunzwa TL,
+> Hespe GE, Santambrogio L, Coriddi M, Dayan JH, Mehrara BJ, Kataru RP.
+> **Critical role of keratinocytes and protease-activated receptor 2 in
+> secondary lymphedema development.** *Clinical and Translational Medicine.*
+> 2026;16(6):e70682. doi:
+> [10.1002/ctm2.70682](https://doi.org/10.1002/ctm2.70682).
+
+Raw sequencing matrices are not stored in this repository. Reruns require local
+access to the 10x H5 files referenced by the cohort manifest and any additional
+data-access instructions described in the published article.
 
 ## Install And Run
 
@@ -158,6 +168,21 @@ PAR2 analysis. The package source lives in
 
 ## Citation
 
-If you use this repository, cite the associated keratinocyte/PAR2 manuscript
-and the shared `paired_sc` core package. See
-[CITATION.cff](./CITATION.cff).
+If you use this repository, cite both the published keratinocyte/PAR2 paper and
+the shared `paired_sc` core package.
+
+```bibtex
+@article{park_critical_role_keratinocytes_2026,
+  author = {Park, Hyeung Ju and Pal, Sarit and Chen, Xizhao and Shin, Jinyeon and García Nores, Gabriela D. and Baik, Jung Eun and Stull-Lane, Annica and Book, Abraham J. and Clement, Cristina C. and Encarnacion, Elizabeth M. and Klang, Mark G. and Riedel, Elyn and Chaunzwa, Tafadzwa L. and Hespe, Geoffrey E. and Santambrogio, Laura and Coriddi, Michelle and Dayan, Joseph H. and Mehrara, Babak J. and Kataru, Raghu P.},
+  title = {Critical role of keratinocytes and protease-activated receptor 2 in secondary lymphedema development},
+  journal = {Clinical and Translational Medicine},
+  year = {2026},
+  volume = {16},
+  number = {6},
+  pages = {e70682},
+  doi = {10.1002/ctm2.70682},
+  url = {https://onlinelibrary.wiley.com/doi/10.1002/ctm2.70682}
+}
+```
+
+See [CITATION.cff](./CITATION.cff) for machine-readable citation metadata.
